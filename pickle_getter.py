@@ -1,12 +1,7 @@
 import pickle
 import os
+import class_file
 import argparse
-
-
-class MyClass:
-    def __init__(self, par1, par2):
-        self.par1 = par1
-        self.par2 = par2
 
 
 if os.path.exists('settings/obj.pickle'):
