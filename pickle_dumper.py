@@ -13,3 +13,5 @@ obj2 = class_file.MyClass(3, 4)
 obj_list = [obj1, obj2]
 with open(args.path, 'wb') as f:
     pickle.dump(obj_list, f)
+if os.path.exists('settings/obj.pickle'):
+    print('Pickled successfully!')
